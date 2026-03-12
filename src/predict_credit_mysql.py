@@ -1,17 +1,33 @@
 import joblib
-from src.build_training_data_mysql import fetch_data
-from src.feature_engineering_mysql import build_user_features
+import numpy as np
+from src.fetch_mysql_data import fetch_data
+from src.feature_engineering_mysql import build_features
 
-users, monthly, loans, utilities = fetch_data()
-
-features = build_user_features(users, monthly, loans, utilities)
-
+gmm = joblib.load("models/gmm_model.pkl")
 model = joblib.load("models/xgboost_model.pkl")
+scaler = joblib.load("models/scaler.pkl")
+feature_cols = joblib.load("models/feature_columns.pkl")
+
+users, transactions, loans, utilities, monthly = fetch_data()
+
+features = build_features(users, transactions, loans, utilities, monthly)
 
 X = features.drop(columns=["user_id"])
 
-pred = model.predict(X)
+X = X[feature_cols]
 
-features["credit_cluster"] = pred
+X_scaled = scaler.transform(X)
 
-print(features.head())
+clusters = gmm.predict(X_scaled)
+
+risk = model.predict(X)
+
+# credit score
+scores = 300 + (1 - risk) * 600
+
+scores = np.clip(scores,300,900)
+
+features["cluster"] = clusters
+features["credit_score"] = scores.astype(int)
+
+print(features[["user_id","cluster","credit_score"]].head())

@@ -1,18 +1,21 @@
-import joblib
 import xgboost as xgb
+import joblib
 
-def train_model(df):
+def train_xgboost(df):
 
-    X = df.drop(columns=["user_id", "cluster"])
+    X = df.drop(columns=["user_id","cluster"])
 
-    y = df["cluster"]
+    # risk proxy
+    y = df["spend_income_ratio"]
 
-    model = xgb.XGBClassifier(
-        n_estimators=200,
-        max_depth=4,
+    model = xgb.XGBRegressor(
+        n_estimators=400,
+        max_depth=6,
         learning_rate=0.05
     )
 
-    model.fit(X, y)
+    model.fit(X,y)
 
-    joblib.dump(model, "models/xgboost_model.pkl")
+    joblib.dump(model,"models/xgboost_model.pkl")
+
+    print("XGBoost regression model trained")
