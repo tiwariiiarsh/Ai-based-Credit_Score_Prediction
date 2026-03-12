@@ -1,0 +1,501 @@
+user_id,risk_score,credit_score,risk_band
+U2001,0.6861,488,D - Reject
+U2002,0.4247,645,C - Manual Review / Collateral
+U2003,0.4704,618,C - Manual Review / Collateral
+U2004,0.0646,861,A - Auto Approve
+U2005,0.2739,736,B - Approve with Lower Limit
+U2006,0.4812,611,C - Manual Review / Collateral
+U2007,0.3588,685,B - Approve with Lower Limit
+U2008,0.4713,617,C - Manual Review / Collateral
+U2009,0.8666,380,D - Reject
+U2010,0.0598,864,A - Auto Approve
+U2011,0.5864,548,D - Reject
+U2012,0.1108,834,A - Auto Approve
+U2013,0.1603,804,A - Auto Approve
+U2014,0.5198,588,C - Manual Review / Collateral
+U2015,0.6997,480,D - Reject
+U2016,0.265,741,B - Approve with Lower Limit
+U2017,0.7433,454,D - Reject
+U2018,0.5648,561,C - Manual Review / Collateral
+U2019,0.6995,480,D - Reject
+U2020,0.7695,438,D - Reject
+U2021,0.6149,531,D - Reject
+U2022,0.9105,354,D - Reject
+U2023,0.6318,521,D - Reject
+U2024,0.0753,855,A - Auto Approve
+U2025,0.1158,830,A - Auto Approve
+U2026,0.9563,326,D - Reject
+U2027,0.9673,320,D - Reject
+U2028,0.1333,820,A - Auto Approve
+U2029,0.1631,802,A - Auto Approve
+U2030,0.8732,376,D - Reject
+U2031,0.622,527,D - Reject
+U2032,0.0673,860,A - Auto Approve
+U2033,0.8093,414,D - Reject
+U2034,0.135,819,A - Auto Approve
+U2035,0.3913,665,B - Approve with Lower Limit
+U2036,0.1821,791,A - Auto Approve
+U2037,0.1563,806,A - Auto Approve
+U2038,0.6476,511,D - Reject
+U2039,0.7967,422,D - Reject
+U2040,0.7697,438,D - Reject
+U2041,0.2799,732,B - Approve with Lower Limit
+U2042,0.1131,832,A - Auto Approve
+U2043,0.482,611,C - Manual Review / Collateral
+U2044,0.471,617,C - Manual Review / Collateral
+U2045,0.2769,734,B - Approve with Lower Limit
+U2046,0.88,372,D - Reject
+U2047,0.1917,785,A - Auto Approve
+U2048,0.7571,446,D - Reject
+U2049,0.0516,869,A - Auto Approve
+U2050,0.7071,476,D - Reject
+U2051,0.8296,402,D - Reject
+U2052,0.0883,847,A - Auto Approve
+U2053,0.3133,712,B - Approve with Lower Limit
+U2054,0.9559,326,D - Reject
+U2055,0.7078,475,D - Reject
+U2056,0.9289,343,D - Reject
+U2057,0.371,677,B - Approve with Lower Limit
+U2058,0.9558,327,D - Reject
+U2059,0.147,812,A - Auto Approve
+U2060,0.1362,818,A - Auto Approve
+U2061,0.8309,401,D - Reject
+U2062,0.3127,712,B - Approve with Lower Limit
+U2063,0.3835,670,B - Approve with Lower Limit
+U2064,0.2989,721,B - Approve with Lower Limit
+U2065,0.0786,853,A - Auto Approve
+U2066,0.1229,826,A - Auto Approve
+U2067,0.7272,464,D - Reject
+U2068,0.3368,698,B - Approve with Lower Limit
+U2069,0.9351,339,D - Reject
+U2070,0.0704,858,A - Auto Approve
+U2071,0.1151,831,A - Auto Approve
+U2072,0.7195,468,D - Reject
+U2073,0.284,730,B - Approve with Lower Limit
+U2074,0.8746,375,D - Reject
+U2075,0.3431,694,B - Approve with Lower Limit
+U2076,0.7112,473,D - Reject
+U2077,0.5594,564,C - Manual Review / Collateral
+U2078,0.5029,598,C - Manual Review / Collateral
+U2079,0.2768,734,B - Approve with Lower Limit
+U2080,0.4754,615,C - Manual Review / Collateral
+U2081,0.3823,671,B - Approve with Lower Limit
+U2082,0.6153,531,D - Reject
+U2083,0.2589,745,B - Approve with Lower Limit
+U2084,0.7364,458,D - Reject
+U2085,0.406,656,B - Approve with Lower Limit
+U2086,0.2919,725,B - Approve with Lower Limit
+U2087,0.3301,702,B - Approve with Lower Limit
+U2088,0.7482,451,D - Reject
+U2089,0.5565,566,C - Manual Review / Collateral
+U2090,0.8361,398,D - Reject
+U2091,0.8317,401,D - Reject
+U2092,0.7252,465,D - Reject
+U2093,0.0566,866,A - Auto Approve
+U2094,0.4224,647,C - Manual Review / Collateral
+U2095,0.7232,466,D - Reject
+U2096,0.2996,720,B - Approve with Lower Limit
+U2097,0.6956,483,D - Reject
+U2098,0.1494,810,A - Auto Approve
+U2099,0.7224,467,D - Reject
+U2100,0.6246,525,D - Reject
+U2101,0.6123,533,D - Reject
+U2102,0.5892,546,D - Reject
+U2103,0.6387,517,D - Reject
+U2104,0.3714,677,B - Approve with Lower Limit
+U2105,0.9641,322,D - Reject
+U2106,0.5979,541,D - Reject
+U2107,0.3195,708,B - Approve with Lower Limit
+U2108,0.7863,428,D - Reject
+U2109,0.5279,583,C - Manual Review / Collateral
+U2110,0.091,845,A - Auto Approve
+U2111,0.154,808,A - Auto Approve
+U2112,0.3688,679,B - Approve with Lower Limit
+U2113,0.8447,393,D - Reject
+U2114,0.3531,688,B - Approve with Lower Limit
+U2115,0.4238,646,C - Manual Review / Collateral
+U2116,0.512,593,C - Manual Review / Collateral
+U2117,0.9141,352,D - Reject
+U2118,0.6563,506,D - Reject
+U2119,0.5491,571,C - Manual Review / Collateral
+U2120,0.0582,865,A - Auto Approve
+U2121,0.9463,332,D - Reject
+U2122,0.4247,645,C - Manual Review / Collateral
+U2123,0.6399,516,D - Reject
+U2124,0.5009,599,C - Manual Review / Collateral
+U2125,0.4002,660,B - Approve with Lower Limit
+U2126,0.0688,859,A - Auto Approve
+U2127,0.4604,624,C - Manual Review / Collateral
+U2128,0.9556,327,D - Reject
+U2129,0.5449,573,C - Manual Review / Collateral
+U2130,0.6531,508,D - Reject
+U2131,0.4202,648,C - Manual Review / Collateral
+U2132,0.9711,317,D - Reject
+U2133,0.7851,429,D - Reject
+U2134,0.6121,533,D - Reject
+U2135,0.1986,781,A - Auto Approve
+U2136,0.5423,575,C - Manual Review / Collateral
+U2137,0.5657,561,C - Manual Review / Collateral
+U2138,0.5142,591,C - Manual Review / Collateral
+U2139,0.4607,624,C - Manual Review / Collateral
+U2140,0.7062,476,D - Reject
+U2141,0.855,387,D - Reject
+U2142,0.0674,860,A - Auto Approve
+U2143,0.3037,718,B - Approve with Lower Limit
+U2144,0.1602,804,A - Auto Approve
+U2145,0.3911,665,B - Approve with Lower Limit
+U2146,0.2247,765,A - Auto Approve
+U2147,0.4113,653,B - Approve with Lower Limit
+U2148,0.6715,497,D - Reject
+U2149,0.5177,589,C - Manual Review / Collateral
+U2150,0.5861,548,D - Reject
+U2151,0.9725,316,D - Reject
+U2152,0.2276,763,A - Auto Approve
+U2153,0.7754,435,D - Reject
+U2154,0.7226,466,D - Reject
+U2155,0.9546,327,D - Reject
+U2156,0.4398,636,C - Manual Review / Collateral
+U2157,0.4345,639,C - Manual Review / Collateral
+U2158,0.4426,634,C - Manual Review / Collateral
+U2159,0.7933,424,D - Reject
+U2160,0.1014,839,A - Auto Approve
+U2161,0.3653,681,B - Approve with Lower Limit
+U2162,0.7551,447,D - Reject
+U2163,0.8356,399,D - Reject
+U2164,0.8581,385,D - Reject
+U2165,0.2056,777,A - Auto Approve
+U2166,0.4875,608,C - Manual Review / Collateral
+U2167,0.5669,560,C - Manual Review / Collateral
+U2168,0.7714,437,D - Reject
+U2169,0.8329,400,D - Reject
+U2170,0.7191,469,D - Reject
+U2171,0.0759,854,A - Auto Approve
+U2172,0.403,658,B - Approve with Lower Limit
+U2173,0.5849,549,D - Reject
+U2174,0.2797,732,B - Approve with Lower Limit
+U2175,0.3775,674,B - Approve with Lower Limit
+U2176,0.4582,625,C - Manual Review / Collateral
+U2177,0.7027,478,D - Reject
+U2178,0.3073,716,B - Approve with Lower Limit
+U2179,0.4376,637,C - Manual Review / Collateral
+U2180,0.9637,322,D - Reject
+U2181,0.3976,661,B - Approve with Lower Limit
+U2182,0.6009,539,D - Reject
+U2183,0.3148,711,B - Approve with Lower Limit
+U2184,0.1867,788,A - Auto Approve
+U2185,0.4085,655,B - Approve with Lower Limit
+U2186,0.8444,393,D - Reject
+U2187,0.0458,873,A - Auto Approve
+U2188,0.6637,502,D - Reject
+U2189,0.5242,586,C - Manual Review / Collateral
+U2190,0.2955,723,B - Approve with Lower Limit
+U2191,0.3581,685,B - Approve with Lower Limit
+U2192,0.2884,727,B - Approve with Lower Limit
+U2193,0.6106,534,D - Reject
+U2194,0.7888,427,D - Reject
+U2195,0.107,836,A - Auto Approve
+U2196,0.368,679,B - Approve with Lower Limit
+U2197,0.3174,710,B - Approve with Lower Limit
+U2198,0.333,700,B - Approve with Lower Limit
+U2199,0.6504,510,D - Reject
+U2200,0.8709,377,D - Reject
+U2201,0.9204,348,D - Reject
+U2202,0.9485,331,D - Reject
+U2203,0.6597,504,D - Reject
+U2204,0.1454,813,A - Auto Approve
+U2205,0.3812,671,B - Approve with Lower Limit
+U2206,0.5122,593,C - Manual Review / Collateral
+U2207,0.3254,705,B - Approve with Lower Limit
+U2208,0.4435,634,C - Manual Review / Collateral
+U2209,0.9665,320,D - Reject
+U2210,0.4856,609,C - Manual Review / Collateral
+U2211,0.2775,734,B - Approve with Lower Limit
+U2212,0.6611,503,D - Reject
+U2213,0.4898,606,C - Manual Review / Collateral
+U2214,0.8527,388,D - Reject
+U2215,0.9715,317,D - Reject
+U2216,0.7383,457,D - Reject
+U2217,0.6533,508,D - Reject
+U2218,0.4928,604,C - Manual Review / Collateral
+U2219,0.411,653,B - Approve with Lower Limit
+U2220,0.4615,623,C - Manual Review / Collateral
+U2221,0.6748,495,D - Reject
+U2222,0.6418,515,D - Reject
+U2223,0.8471,392,D - Reject
+U2224,0.9135,352,D - Reject
+U2225,0.2028,778,A - Auto Approve
+U2226,0.7777,433,D - Reject
+U2227,0.5661,560,C - Manual Review / Collateral
+U2228,0.0733,856,A - Auto Approve
+U2229,0.2202,768,A - Auto Approve
+U2230,0.9084,355,D - Reject
+U2231,0.8929,364,D - Reject
+U2232,0.8062,416,D - Reject
+U2233,0.0875,847,A - Auto Approve
+U2234,0.9523,329,D - Reject
+U2235,0.2342,759,A - Auto Approve
+U2236,0.4981,601,C - Manual Review / Collateral
+U2237,0.8775,374,D - Reject
+U2238,0.6973,482,D - Reject
+U2239,0.4057,657,B - Approve with Lower Limit
+U2240,0.5047,597,C - Manual Review / Collateral
+U2241,0.4403,636,C - Manual Review / Collateral
+U2242,0.8783,373,D - Reject
+U2243,0.0872,848,A - Auto Approve
+U2244,0.6315,521,D - Reject
+U2245,0.7506,450,D - Reject
+U2246,0.7715,437,D - Reject
+U2247,0.6456,513,D - Reject
+U2248,0.8904,366,D - Reject
+U2249,0.0646,861,A - Auto Approve
+U2250,0.4856,609,C - Manual Review / Collateral
+U2251,0.8227,406,D - Reject
+U2252,0.5859,548,D - Reject
+U2253,0.0831,850,A - Auto Approve
+U2254,0.2761,734,B - Approve with Lower Limit
+U2255,0.643,514,D - Reject
+U2256,0.964,322,D - Reject
+U2257,0.1461,812,A - Auto Approve
+U2258,0.9711,317,D - Reject
+U2259,0.954,328,D - Reject
+U2260,0.1842,789,A - Auto Approve
+U2261,0.7149,471,D - Reject
+U2262,0.4704,618,C - Manual Review / Collateral
+U2263,0.1404,816,A - Auto Approve
+U2264,0.9622,323,D - Reject
+U2265,0.2638,742,B - Approve with Lower Limit
+U2266,0.0821,851,A - Auto Approve
+U2267,0.7393,456,D - Reject
+U2268,0.2568,746,B - Approve with Lower Limit
+U2269,0.8509,389,D - Reject
+U2270,0.89,366,D - Reject
+U2271,0.5062,596,C - Manual Review / Collateral
+U2272,0.348,691,B - Approve with Lower Limit
+U2273,0.7436,454,D - Reject
+U2274,0.3049,717,B - Approve with Lower Limit
+U2275,0.1751,795,A - Auto Approve
+U2276,0.1501,810,A - Auto Approve
+U2277,0.7457,453,D - Reject
+U2278,0.3944,663,B - Approve with Lower Limit
+U2279,0.7017,479,D - Reject
+U2280,0.1513,809,A - Auto Approve
+U2281,0.4625,622,C - Manual Review / Collateral
+U2282,0.4717,617,C - Manual Review / Collateral
+U2283,0.8946,363,D - Reject
+U2284,0.6105,534,D - Reject
+U2285,0.3375,698,B - Approve with Lower Limit
+U2286,0.2678,739,B - Approve with Lower Limit
+U2287,0.4091,655,B - Approve with Lower Limit
+U2288,0.5106,594,C - Manual Review / Collateral
+U2289,0.9736,316,D - Reject
+U2290,0.1633,802,A - Auto Approve
+U2291,0.2921,725,B - Approve with Lower Limit
+U2292,0.1035,838,A - Auto Approve
+U2293,0.9711,317,D - Reject
+U2294,0.1437,814,A - Auto Approve
+U2295,0.8505,390,D - Reject
+U2296,0.3001,720,B - Approve with Lower Limit
+U2297,0.6843,489,D - Reject
+U2298,0.7464,452,D - Reject
+U2299,0.3967,662,B - Approve with Lower Limit
+U2300,0.8037,418,D - Reject
+U2301,0.6549,507,D - Reject
+U2302,0.9302,342,D - Reject
+U2303,0.123,826,A - Auto Approve
+U2304,0.2326,760,A - Auto Approve
+U2305,0.4302,642,C - Manual Review / Collateral
+U2306,0.3856,669,B - Approve with Lower Limit
+U2307,0.7354,459,D - Reject
+U2308,0.7281,463,D - Reject
+U2309,0.145,813,A - Auto Approve
+U2310,0.8147,411,D - Reject
+U2311,0.5811,551,C - Manual Review / Collateral
+U2312,0.4157,651,B - Approve with Lower Limit
+U2313,0.0561,866,A - Auto Approve
+U2314,0.5932,544,D - Reject
+U2315,0.0525,869,A - Auto Approve
+U2316,0.7814,431,D - Reject
+U2317,0.2429,754,A - Auto Approve
+U2318,0.6932,484,D - Reject
+U2319,0.761,443,D - Reject
+U2320,0.7532,448,D - Reject
+U2321,0.3309,701,B - Approve with Lower Limit
+U2322,0.3244,705,B - Approve with Lower Limit
+U2323,0.1034,838,A - Auto Approve
+U2324,0.3982,661,B - Approve with Lower Limit
+U2325,0.5205,588,C - Manual Review / Collateral
+U2326,0.4292,642,C - Manual Review / Collateral
+U2327,0.7563,446,D - Reject
+U2328,0.7645,441,D - Reject
+U2329,0.3536,688,B - Approve with Lower Limit
+U2330,0.448,631,C - Manual Review / Collateral
+U2331,0.5317,581,C - Manual Review / Collateral
+U2332,0.3879,667,B - Approve with Lower Limit
+U2333,0.8873,368,D - Reject
+U2334,0.5916,545,D - Reject
+U2335,0.6137,532,D - Reject
+U2336,0.6744,495,D - Reject
+U2337,0.4949,603,C - Manual Review / Collateral
+U2338,0.9379,337,D - Reject
+U2339,0.9671,320,D - Reject
+U2340,0.1667,800,A - Auto Approve
+U2341,0.6169,530,D - Reject
+U2342,0.4989,601,C - Manual Review / Collateral
+U2343,0.5705,558,C - Manual Review / Collateral
+U2344,0.3387,697,B - Approve with Lower Limit
+U2345,0.2022,779,A - Auto Approve
+U2346,0.7836,430,D - Reject
+U2347,0.6439,514,D - Reject
+U2348,0.8379,397,D - Reject
+U2349,0.3482,691,B - Approve with Lower Limit
+U2350,0.4233,646,C - Manual Review / Collateral
+U2351,0.6289,523,D - Reject
+U2352,0.4897,606,C - Manual Review / Collateral
+U2353,0.5854,549,D - Reject
+U2354,0.4772,614,C - Manual Review / Collateral
+U2355,0.8441,394,D - Reject
+U2356,0.3599,684,B - Approve with Lower Limit
+U2357,0.8198,408,D - Reject
+U2358,0.3543,687,B - Approve with Lower Limit
+U2359,0.9645,321,D - Reject
+U2360,0.3633,682,B - Approve with Lower Limit
+U2361,0.2222,767,A - Auto Approve
+U2362,0.6936,484,D - Reject
+U2363,0.5753,555,C - Manual Review / Collateral
+U2364,0.2821,731,B - Approve with Lower Limit
+U2365,0.3767,674,B - Approve with Lower Limit
+U2366,0.4713,617,C - Manual Review / Collateral
+U2367,0.391,665,B - Approve with Lower Limit
+U2368,0.3839,670,B - Approve with Lower Limit
+U2369,0.6393,516,D - Reject
+U2370,0.2918,725,B - Approve with Lower Limit
+U2371,0.7094,474,D - Reject
+U2372,0.6541,508,D - Reject
+U2373,0.4081,655,B - Approve with Lower Limit
+U2374,0.5723,557,C - Manual Review / Collateral
+U2375,0.461,623,C - Manual Review / Collateral
+U2376,0.1437,814,A - Auto Approve
+U2377,0.919,349,D - Reject
+U2378,0.7109,473,D - Reject
+U2379,0.2732,736,B - Approve with Lower Limit
+U2380,0.407,656,B - Approve with Lower Limit
+U2381,0.4944,603,C - Manual Review / Collateral
+U2382,0.6446,513,D - Reject
+U2383,0.8494,390,D - Reject
+U2384,0.366,680,B - Approve with Lower Limit
+U2385,0.7709,437,D - Reject
+U2386,0.5167,590,C - Manual Review / Collateral
+U2387,0.6829,490,D - Reject
+U2388,0.9388,337,D - Reject
+U2389,0.1825,790,A - Auto Approve
+U2390,0.1365,818,A - Auto Approve
+U2391,0.9349,339,D - Reject
+U2392,0.7305,462,D - Reject
+U2393,0.6664,500,D - Reject
+U2394,0.2443,753,A - Auto Approve
+U2395,0.2568,746,B - Approve with Lower Limit
+U2396,0.3282,703,B - Approve with Lower Limit
+U2397,0.3031,718,B - Approve with Lower Limit
+U2398,0.147,812,A - Auto Approve
+U2399,0.8744,375,D - Reject
+U2400,0.1067,836,A - Auto Approve
+U2401,0.0491,871,A - Auto Approve
+U2402,0.9308,342,D - Reject
+U2403,0.7566,446,D - Reject
+U2404,0.598,541,D - Reject
+U2405,0.1761,794,A - Auto Approve
+U2406,0.4226,646,C - Manual Review / Collateral
+U2407,0.7295,462,D - Reject
+U2408,0.6259,524,D - Reject
+U2409,0.1309,821,A - Auto Approve
+U2410,0.0845,849,A - Auto Approve
+U2411,0.3963,662,B - Approve with Lower Limit
+U2412,0.2942,723,B - Approve with Lower Limit
+U2413,0.6584,505,D - Reject
+U2414,0.6144,531,D - Reject
+U2415,0.7372,458,D - Reject
+U2416,0.2983,721,B - Approve with Lower Limit
+U2417,0.8154,411,D - Reject
+U2418,0.4363,638,C - Manual Review / Collateral
+U2419,0.3724,677,B - Approve with Lower Limit
+U2420,0.2526,748,B - Approve with Lower Limit
+U2421,0.958,325,D - Reject
+U2422,0.3305,702,B - Approve with Lower Limit
+U2423,0.888,367,D - Reject
+U2424,0.5327,580,C - Manual Review / Collateral
+U2425,0.8509,389,D - Reject
+U2426,0.4562,626,C - Manual Review / Collateral
+U2427,0.0551,867,A - Auto Approve
+U2428,0.4551,627,C - Manual Review / Collateral
+U2429,0.2991,721,B - Approve with Lower Limit
+U2430,0.2193,768,A - Auto Approve
+U2431,0.7845,429,D - Reject
+U2432,0.6819,491,D - Reject
+U2433,0.9401,336,D - Reject
+U2434,0.504,598,C - Manual Review / Collateral
+U2435,0.1103,834,A - Auto Approve
+U2436,0.4249,645,C - Manual Review / Collateral
+U2437,0.4283,643,C - Manual Review / Collateral
+U2438,0.8493,390,D - Reject
+U2439,0.7147,471,D - Reject
+U2440,0.1172,830,A - Auto Approve
+U2441,0.3376,697,B - Approve with Lower Limit
+U2442,0.4498,630,C - Manual Review / Collateral
+U2443,0.9561,326,D - Reject
+U2444,0.0809,851,A - Auto Approve
+U2445,0.7089,475,D - Reject
+U2446,0.4884,607,C - Manual Review / Collateral
+U2447,0.6204,528,D - Reject
+U2448,0.5883,547,D - Reject
+U2449,0.7038,478,D - Reject
+U2450,0.5826,550,C - Manual Review / Collateral
+U2451,0.3111,713,B - Approve with Lower Limit
+U2452,0.2716,737,B - Approve with Lower Limit
+U2453,0.6041,538,D - Reject
+U2454,0.2528,748,B - Approve with Lower Limit
+U2455,0.4727,616,C - Manual Review / Collateral
+U2456,0.639,517,D - Reject
+U2457,0.7092,474,D - Reject
+U2458,0.7259,464,D - Reject
+U2459,0.1025,839,A - Auto Approve
+U2460,0.4648,621,C - Manual Review / Collateral
+U2461,0.4031,658,B - Approve with Lower Limit
+U2462,0.551,569,C - Manual Review / Collateral
+U2463,0.8018,419,D - Reject
+U2464,0.6251,525,D - Reject
+U2465,0.2559,746,B - Approve with Lower Limit
+U2466,0.9262,344,D - Reject
+U2467,0.552,569,C - Manual Review / Collateral
+U2468,0.3507,690,B - Approve with Lower Limit
+U2469,0.4107,654,B - Approve with Lower Limit
+U2470,0.7542,447,D - Reject
+U2471,0.4716,617,C - Manual Review / Collateral
+U2472,0.8319,401,D - Reject
+U2473,0.3652,681,B - Approve with Lower Limit
+U2474,0.5629,562,C - Manual Review / Collateral
+U2475,0.0497,870,A - Auto Approve
+U2476,0.5577,565,C - Manual Review / Collateral
+U2477,0.1101,834,A - Auto Approve
+U2478,0.8311,401,D - Reject
+U2479,0.3868,668,B - Approve with Lower Limit
+U2480,0.4743,615,C - Manual Review / Collateral
+U2481,0.7132,472,D - Reject
+U2482,0.2088,775,A - Auto Approve
+U2483,0.3233,706,B - Approve with Lower Limit
+U2484,0.6191,529,D - Reject
+U2485,0.589,547,D - Reject
+U2486,0.4607,624,C - Manual Review / Collateral
+U2487,0.6157,531,D - Reject
+U2488,0.0618,863,A - Auto Approve
+U2489,0.6295,522,D - Reject
+U2490,0.5177,589,C - Manual Review / Collateral
+U2491,0.0917,845,A - Auto Approve
+U2492,0.1139,832,A - Auto Approve
+U2493,0.2831,730,B - Approve with Lower Limit
+U2494,0.921,347,D - Reject
+U2495,0.8925,364,D - Reject
+U2496,0.531,581,C - Manual Review / Collateral
+U2497,0.6849,489,D - Reject
+U2498,0.7695,438,D - Reject
+U2499,0.5073,596,C - Manual Review / Collateral
+U2500,0.0649,861,A - Auto Approve
