@@ -1,56 +1,39 @@
 from fastapi import FastAPI
-from pydantic import BaseModel
-from typing import List, Optional
+import mysql.connector
+from scoring.score import score_user
 
-import pandas as pd
+app = FastAPI(title="Darcrays Credit Scoring API")
 
-from src.predict_credit import predict_credit_score_from_df
-
-app = FastAPI(title="AI Alternate Credit Scoring API")
-
-
-class MonthlyRecord(BaseModel):
-    user_id: str
-    year: int
-    month: int
-    age: Optional[int] = None
-    employment_type: Optional[str] = None
-    residence_type: Optional[str] = None
-    city_tier: Optional[str] = None
-    monthly_income: Optional[float] = None
-    income_sources_count: Optional[int] = None
-    income_std_6m: Optional[float] = None
-    salary_day_variance: Optional[int] = None
-    monthly_spending: Optional[float] = None
-    spend_income_ratio: Optional[float] = None
-    discretionary_spend_ratio: Optional[float] = None
-    essential_spend_ratio: Optional[float] = None
-    spending_volatility: Optional[float] = None
-    balance_low_days: Optional[int] = None
-    utility_bill_amount: Optional[float] = None
-    utility_payment_ratio: Optional[float] = None
-    utility_delay_days: Optional[int] = None
-    bill_payment_consistency: Optional[float] = None
-    bnpl_usage_count: Optional[int] = None
-    bnpl_on_time_ratio: Optional[float] = None
-    microloan_count: Optional[int] = None
-    microloan_repayment_ratio: Optional[float] = None
-    monthly_sales: Optional[float] = None
-    sales_growth_rate: Optional[float] = None
-    cashflow_variance: Optional[float] = None
-    business_expense_ratio: Optional[float] = None
-    late_payment_events: Optional[int] = None
-    missed_payment_events: Optional[int] = None
-    financial_stress_index: Optional[float] = None
-
+def get_all_users():
+    conn = mysql.connector.connect(
+        host="localhost", user="root",
+        password="Arsh@1106", database="Barclays_Bank"
+    )
+    cursor = conn.cursor()
+    cursor.execute("SELECT user_id FROM users")
+    ids = [r[0] for r in cursor.fetchall()]
+    conn.close()
+    return ids
 
 @app.get("/")
-def home():
-    return {"message": "AI Alternate Credit Scoring API Running"}
+def root():
+    return {"message": "Darcrays Credit Scoring API", "status": "running"}
 
+@app.get("/score/{user_id}")
+def score(user_id: str):
+    return score_user(user_id)
 
-@app.post("/predict")
-def predict(records: List[MonthlyRecord]):
-    df = pd.DataFrame([r.dict() for r in records])
-    result = predict_credit_score_from_df(df)
-    return result
+@app.get("/score_all")
+def score_all():
+    ids = get_all_users()
+    results = []
+    for uid in ids[:50]:
+        try:
+            results.append(score_user(uid))
+        except Exception as e:
+            results.append({"user_id": uid, "error": str(e)})
+    return results
+
+@app.get("/health")
+def health():
+    return {"status": "ok", "model": "XGBoost + GMM", "features": 52}
